@@ -1,0 +1,21 @@
+🔹 Activity 1: Specify the Poultry Disease Classification Objective
+Objective:
+Identify visual and biological features related to major poultry diseases and define a strategy to classify them accurately using image-based data.
+
+Work Done:
+
+Conducted background research on poultry diseases like Coccidiosis, Newcastle Disease, Salmonella, and Healthy conditions.
+
+Identified visible symptoms and environmental factors (e.g., feather discoloration, lesions, posture changes) relevant for classification.
+
+Selected and prepared an image dataset from Roboflow containing labeled samples for each disease category.
+
+Preprocessed the dataset by resizing, normalizing, and augmenting images to improve model robustness.
+
+Outcome:
+
+Established a feature-rich dataset with visually distinct categories of poultry conditions.
+
+Created the foundation for training a deep learning model using transfer learning for high-accuracy disease prediction.
+
+Highlighted the importance of accessible, tech-driven solutions in rural poultry health management.
