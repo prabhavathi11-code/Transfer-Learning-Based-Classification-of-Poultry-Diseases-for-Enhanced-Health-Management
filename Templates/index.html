@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PoultryDetect</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #000;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #000;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a.active {
+      color: #1db954;
+    }
+
+    .social-icons a {
+      color: white;
+      margin-left: 15px;
+      font-size: 18px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 22px;
+      margin: 20px 0;
+    }
+
+    .hero a button {
+      padding: 12px 24px;
+      background-color: #1db954;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .images-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+
+    .images-section img {
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #1db954;
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">PoultryDetect</div>
+    <nav>
+      <a href="#" class="active">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CONTACT</a>
+    </nav>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Poultry Health Hub,</h1>
+    <p>your comprehensive resource for<br>poultry disease management and<br>prevention.</p>
+    <a href="{{ url_for('predict') }}">
+      <button>GET STARTED</button>
+    </a>
+  </section>
+
+  <section class="images-section">
+    <img src="/static/uploads/coccidiosis.jpeg" alt="Coccidiosis" />
+    <img src="/static/uploads/sick-chicken.jpeg" alt="Sick Chicken" />
+    <img src="/static/uploads/poultry-farm.jpeg" alt="Poultry in Field" />
+    <img src="/static/uploads/hen-healthy.jpeg" alt="Healthy Hen" />
+  </section>
+
+  <div class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+</body>
+</html>
