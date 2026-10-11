@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoultryVision - Smart Poultry Disease Detection Using Transfer Learning</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<!-- Top Info Card -->
+<div class="info-card">
+    <h1>St. Ann's College of Engineering and Technology</h1>
+    <h2>Department of CSE - Artificial Intelligence &amp; Machine Learning</h2>
+    <p>PoultryVision: Transfer-Learning-Based Classification of Poultry Diseases for Enhanced Health Management</p>
+    <div class="badge-tag">
+        <span>🔬 Deep Learning &bull; MobileNetV2 Architecture &bull; 96.8% Accuracy</span>
+    </div>
+</div>
+
+<!-- Login Card -->
+<div class="login-container">
+
+    <!-- Left panel: logo -->
+    <div class="login-left">
+        <img src="logo-final.png" class="logo" alt="St. Ann's College of Engineering & Technology Logo">
+        <div class="left-project-badge">
+            <div style="font-weight: 700; color: #10b981; font-size: 15px;">PoultryVision Diagnostics</div>
+            <div class="project-subtitle">Automated Pathology &amp; Flock Health Triage</div>
+        </div>
+    </div>
+
+    <!-- Right panel: login form -->
+    <div class="login-right">
+        <h2 class="team-login">
+            <span>🔐 Team Login</span>
+        </h2>
+
+        <input type="text" id="username" placeholder="Enter Team Member Name">
+        <input type="password" id="password" placeholder="Enter Password">
+
+        <button type="button" class="primary-btn" onclick="validateUser()">Launch Diagnostic Suite</button>
+
+        <!-- Quick 1-Click Auto-Login Chips -->
+        <div class="quick-login-section">
+            <span class="quick-title">Quick 1-Click Login (Team Members):</span>
+            <div class="chips-wrap">
+                <button type="button" class="quick-chip" onclick="quickLogin('Ch.Prabhavathi', '@4211')">⚡ Ch.Prabhavathi</button>
+                <button type="button" class="quick-chip" onclick="quickLogin('B.Kusuma Priya', '@4203')">⚡ B.Kusuma Priya</button>
+                <button type="button" class="quick-chip" onclick="quickLogin('A.Teja', '@2303')">⚡ A.Teja</button>
+            </div>
+            <a href="dashboard.html" class="direct-link">
+                <span>👉 Open Live AI Disease Diagnostic Studio Directly</span>
+            </a>
+        </div>
+
+        <p class="note">Real-Time MobileNetV2 Deep Learning Inference &bull; Multiclass Pathology</p>
+    </div>
+
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
