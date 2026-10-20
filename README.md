@@ -1,5 +1,5 @@
 # Transfer-Learning-Based Classification of Poultry Diseases for Enhanced Health Management                   
-      
+       
 > **AI-Powered Avian Pathology Classification & Health Management System** using **MobileNetV2 Transfer Learning**, **Deep Convolutional Neural Networks**, and an interactive diagnostic web portal for early disease detection, clinical analysis, and biosecurity intervention.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://prabhavathi11-code.github.io/Transfer-Learning-Based-Classification-of-Poultry-Diseases-for-Enhanced-Health-Management/)
